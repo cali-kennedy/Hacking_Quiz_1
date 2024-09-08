@@ -32,7 +32,7 @@ incorrect_answers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  # Initialize with all quest
 # Connect to Gmail using IMAP to extract quiz results
 def connect_to_gmail():
     mail = imaplib.IMAP4_SSL('imap.gmail.com')  # Secure connection to Gmail
-    mail.login('user@gmail.com', 'password')  # Login using your credentials
+    mail.login('test103352@gmail.com', 'ulcw lxup apob epih')   # Login using your credentials
     mail.select('inbox')  # Select the inbox folder
     return mail
 
